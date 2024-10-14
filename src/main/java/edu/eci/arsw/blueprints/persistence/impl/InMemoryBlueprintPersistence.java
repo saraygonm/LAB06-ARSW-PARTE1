@@ -32,24 +32,33 @@ public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
         inicializar datos ("stub data") en la memoria
         */
 
-        Point[] pts=new Point[]{new Point(140, 140),new Point(115, 115)};
-        Blueprint bp=new Blueprint("_authorname_", "_bpname_ ",pts);
+        Point[] pts1 = new Point[] { new Point(40, 50), new Point(105, 15) };
+        Point[] pts2 = new Point[] { new Point(10, 10), new Point(51, 51) };
+        Point[] pts3 = new Point[] { new Point(90, 90), new Point(30, 30) };
 
-        Point[] pts1=new Point[]{new Point(100, 100),new Point(50, 45)};
-        Blueprint bp1=new Blueprint("Saray", "Plano1",pts1);
+        Point[] pts4 = new Point[] { new Point(50, 200), new Point(200, 51), new Point(400, 200),
+                new Point(51, 200), new Point(50, 300), new Point(400, 300), new Point(400, 201) };
 
-        Point[] pts2=new Point[]{new Point(56, 56),new Point(25, 6)};
-        Blueprint bp2=new Blueprint("Alieth", "Plano2",pts2);
+        Point[] pts5 = new Point[] { new Point(185, 30), new Point(190, 10), new Point(195, 30),
+                new Point(180, 20), new Point(200, 20), new Point(180, 31) };
 
-        Point[] pts3=new Point[]{new Point(90, 90),new Point(40, 40)};
-        Blueprint bp3=new Blueprint("Andres", "Plano3",pts3);
+// Hexágono
+        Point[] pts6 = new Point[] { new Point(150, 100), new Point(200, 100), new Point(225, 150),
+                new Point(200, 200), new Point(150, 200), new Point(125, 150) };
 
-
+        Blueprint bp1 = new Blueprint("Saray", "plano1", pts1);
+        Blueprint bp2 = new Blueprint("Saray", "plano2", pts2);
+        Blueprint bp3 = new Blueprint("Alieth", "plano3", pts3);
+        Blueprint bp4 = new Blueprint("Alieth", "casa", pts4);
+        Blueprint bp5 = new Blueprint("Alieth", "estrella", pts5);
+        Blueprint bp6 = new Blueprint("Alieth", "hexagono", pts6);
 
         blueprints.put(new Tuple<>(bp3.getAuthor(),bp3.getName()), bp3);
-        blueprints.put(new Tuple<>(bp.getAuthor(),bp.getName()), bp);
+        blueprints.put(new Tuple<>(bp4.getAuthor(),bp4.getName()), bp4);
         blueprints.put(new Tuple<>(bp1.getAuthor(),bp1.getName()), bp1);
         blueprints.put(new Tuple<>(bp2.getAuthor(),bp2.getName()), bp2);
+        blueprints.put(new Tuple<>(bp5.getAuthor(),bp5.getName()), bp5);
+        blueprints.put(new Tuple<>(bp6.getAuthor(),bp6.getName()), bp6);
     }
 
     @Override
