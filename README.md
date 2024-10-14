@@ -55,6 +55,13 @@
     </dependency>                
 
     ```
+- Se cambian las versiones para que no se presenten errores.
+- Mediante estas dependencias se podran usar componentes interactivos de Bootstrap.
+- Componentes: carruseles, menús desplegables y otros elementos que requieren JavaScript para funcionar.
+
+<p align="center">
+<img src="img/6/3.png" alt="Hilo CountThread" width="700px">
+</p>
 
 ## 📍 Front-End - Vistas
 
@@ -63,10 +70,18 @@
     ```
     src/main/resources/static
     ```
+- Usando el comando `tree` en la terminal con la ruta de nuestro proyecto, podremos visualizar la estructura de las nuevas carpetas.
 
-4. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo <div> donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo <div> donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
+<p align="center">
+<img src="img/6/4.png" alt="Hilo CountThread" width="700px">
+</p>
 
-5. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
+
+2. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo <div> donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo <div> donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
+
+
+
+3. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
     ```html
     <head>
         <title>Blueprints</title>
@@ -79,9 +94,10 @@
           href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
     </head>
     ```
+   
 
 
-5. Suba la aplicación (mvn spring-boot:run), y rectifique:
+4. Suba la aplicación (mvn spring-boot:run), y rectifique:
     1. Que la página sea accesible desde:
     ```
     http://localhost:8080/index.html
