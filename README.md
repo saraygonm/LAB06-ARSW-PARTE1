@@ -20,19 +20,10 @@
 - 2)  Una vez descargado, importamos las carpetas, que contienen las clases y otros recursos.
 
 
-<!-- contenedor flexbox(CSS) para alinear las imágenes lado a lado.-->
-<div style="display: flex; justify-content: space-around;"> 
-    <div style="text-align: center;">
-        <img src="img/6/1.png" alt="Descarga local" width="200px">
-        <p>Imagen 1: Descarga local</p>
-    </div>
-    <div style="text-align: center;">
-        <img src="img/6/2.png" alt="Importar carpetas" width="200px">
-        <p>Imagen 2: Importar carpetas</p>
-    </div>
-</div>
-
-
+<!-- Creación tabla para visualizar las imagenes lado a lado.-->
+| <img src="img/6/1.png" alt="Descarga local" width="500px"> | <img src="img/6/2.png" alt="Importar carpetas" width="500px"> |
+|-------------------------------------------------------------|---------------------------------------------------------------|
+| **Imagen 1: Descarga local**                                | **Imagen 2: Importar carpetas**                               |
 
 
 2. Incluya dentro de las dependencias de Maven los 'webjars' de jQuery y Bootstrap (esto permite tener localmente dichas librerías de JavaScript al momento de construír el proyecto):
