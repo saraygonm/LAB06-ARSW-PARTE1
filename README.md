@@ -19,14 +19,15 @@
 
 - 2)  Una vez descargado, importamos las carpetas, que contienen las clases y otros recursos.
 
+
 <!-- contenedor flexbox(CSS) para alinear las imágenes lado a lado.-->
 <div style="display: flex; justify-content: space-around;"> 
     <div style="text-align: center;">
-        <img src="img/6/1.png" alt="Descarga local" width="500px">
+        <img src="img/6/1.png" alt="Descarga local" width="200px">
         <p>Imagen 1: Descarga local</p>
     </div>
     <div style="text-align: center;">
-        <img src="img/6/2.png" alt="Importar carpetas" width="500px">
+        <img src="img/6/2.png" alt="Importar carpetas" width="200px">
         <p>Imagen 2: Importar carpetas</p>
     </div>
 </div>
@@ -60,7 +61,7 @@
 - Componentes: carruseles, menús desplegables y otros elementos que requieren JavaScript para funcionar.
 
 <p align="center">
-<img src="img/6/3.png" alt="Hilo CountThread" width="700px">
+<img src="img/6/3.png" alt="Hilo CountThread" width="600px">
 </p>
 
 ## 📍 Front-End - Vistas
@@ -73,7 +74,7 @@
 - Usando el comando `tree` en la terminal con la ruta de nuestro proyecto, podremos visualizar la estructura de las nuevas carpetas.
 
 <p align="center">
-<img src="img/6/4.png" alt="Hilo CountThread" width="700px">
+<img src="img/6/4.png" alt="Hilo CountThread" width="600px">
 </p>
 
 
