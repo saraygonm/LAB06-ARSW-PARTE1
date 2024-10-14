@@ -20,7 +20,7 @@
 - 2)  Una vez descargado, importamos las carpetas, que contienen las clases y otros recursos.
 
 <!-- Creación de tabla para alinear las imágenes lado a lado.-->
-| <img src="img/6/1.png" alt="Descarga local" width="300px"> | <img src="img/6/2.png" alt="Importar carpetas" width="300px"> |
+| <img src="img/6/1.png" alt="Descarga local" width="500px"> | <img src="img/6/2.png" alt="Importar carpetas" width="500px"> |
 |-------------------------------------------------------------|---------------------------------------------------------------|
 | **Imagen 1: Descarga local**                                | **Imagen 2: Importar carpetas**                               |
 
